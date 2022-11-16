@@ -36,6 +36,9 @@ li{
 .padre-info{
     background-color: #6c708b;
     margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: black;
 }
 
 .info{
@@ -46,6 +49,18 @@ li{
 .data__title{
     font-size: 20px;
     font-weight: bold;
+}
+
+@media screen and (max-width: 870px) {
+    .padre-info{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .padre-info{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
 .derechos{
@@ -140,3 +155,5 @@ li{
         grid-template-columns: repeat(1,1fr);
     }
 }
+
+
