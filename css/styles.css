@@ -35,7 +35,7 @@ li{
 
 .padre-info{
     background-color: #6c708b;
-    margin-top: 20px;
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     color: black;
