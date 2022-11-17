@@ -71,7 +71,7 @@ li{
     font-weight: bolder;
     font-size: 13px;
     padding: 20px;
-    margin-top: 100px;
+    margin-top: 130px;
 }
 
 
@@ -167,11 +167,11 @@ li{
 
 .ubicacion-mapa{
     margin-left: 300px;
-    margin-top: 70px;
+    margin: auto;
 }
 
 .ubicacion-texto{
-    margin-top: 70px;
+    margin-top: 20px;
     margin-left: 50px;
     text-align: center;
 }
@@ -186,3 +186,6 @@ li{
     }
 }
 
+.info-me{
+    margin-top: 70px;
+}
