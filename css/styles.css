@@ -35,7 +35,7 @@ li{
 
 .padre-info{
     background-color: #6c708b;
-    margin-top: 40px;
+    margin-top: 110px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     color: black;
@@ -81,7 +81,7 @@ li{
     border-style: solid;
     display:grid;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 110px;
     text-align: center;
     border-radius: 20px;
     padding: 20px;
@@ -162,7 +162,7 @@ li{
     grid-template-columns: repeat(2,1fr);
     background-color: #6c708b;
     padding: 50px;
-    margin-top: 30px;
+    margin-top: 110px;
 }
 
 .ubicacion-mapa{
