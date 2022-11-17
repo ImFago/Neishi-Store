@@ -95,12 +95,6 @@ li{
     border-radius: 5px;
 }
 
-@media screen and (max-width: 840px) {
-    #formulario{
-    width: 100%;
-    }
-}
-
 .imagen{
     width: 100px;
 }
