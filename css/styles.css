@@ -171,9 +171,8 @@ li{
 }
 
 .ubicacion-texto{
-    margin-top: 20px;
-    margin-left: 50px;
-    text-align: center;
+    margin:auto;
+    text-align:center;
 }
 
 .ubicacion-parrafo{
