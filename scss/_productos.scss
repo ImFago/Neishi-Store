@@ -1,6 +1,8 @@
+@import "variables";
+@import "mixins";
+
 #productos{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    @include gridtrescolumnas;
 }
 
 .card{
@@ -38,17 +40,5 @@
 
 .card__parrafo--negrita{
     font-weight: bold;
-    font-size: 20px;
-}
-
-@media screen and (max-width: 760px) {
-    #productos{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-
-@media screen and (max-width: 515px) {
-    #productos{
-        grid-template-columns: repeat(1,1fr);
-    }
+    font-size: $letramediana;
 }

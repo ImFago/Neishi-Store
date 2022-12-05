@@ -29,7 +29,6 @@ li {
 .derechos {
   text-align: center;
   background-color: #135fd4;
-  font-size: 10px;
   color: black;
   font-weight: bolder;
   font-size: 13px;
@@ -46,9 +45,9 @@ li {
 .padre-info {
   background-color: #6c708b;
   margin-top: 110px;
+  color: black;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  color: black;
 }
 
 .info {
@@ -61,16 +60,6 @@ li {
   font-weight: bold;
 }
 
-@media screen and (max-width: 870px) {
-  .padre-info {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 599px) {
-  .padre-info {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
 .formulario {
   background-color: #6c708b;
   border-style: solid;
@@ -92,16 +81,6 @@ li {
 
 .imagen {
   width: 100px;
-}
-
-.neishi {
-  font-weight: bold;
-  color: black;
-}
-
-.store {
-  color: #f4af2e;
-  font-weight: bold;
 }
 
 #productos {
@@ -144,22 +123,12 @@ li {
   font-size: 20px;
 }
 
-@media screen and (max-width: 760px) {
-  #productos {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 515px) {
-  #productos {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
 .padre-ubicacion {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   background-color: #6c708b;
   padding: 50px;
   margin-top: 110px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .ubicacion-mapa {
@@ -178,6 +147,40 @@ li {
 
 @media screen and (max-width: 950px) {
   .padre-ubicacion {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.neishi {
+  font-weight: bold;
+  color: black;
+}
+
+.store {
+  color: #f4af2e;
+  font-weight: bold;
+}
+
+.info-me {
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 870px) {
+  .padre-info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 599px) {
+  .padre-info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 760px) {
+  #productos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 515px) {
+  #productos {
     grid-template-columns: repeat(1, 1fr);
   }
 }

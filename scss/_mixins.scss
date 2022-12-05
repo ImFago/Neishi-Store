@@ -1,0 +1,14 @@
+@mixin griddoscolumnas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@mixin gridtrescolumnas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@mixin gridcuatrocolumnas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

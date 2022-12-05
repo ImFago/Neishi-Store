@@ -1,9 +1,10 @@
+@import "mixins";
+
 .padre-ubicacion{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
     background-color: #6c708b;
     padding: 50px;
     margin-top: 110px;
+    @include griddoscolumnas;
 }
 
 .ubicacion-mapa{
