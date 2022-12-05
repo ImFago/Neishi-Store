@@ -1,0 +1,54 @@
+#productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.card{
+    border: solid 2px;
+    width: 240px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    flex-wrap: wrap;
+    
+}
+
+.card__parrafo--oferta{
+    background-color:#f4af2e;
+    font-weight: bolder;
+    width: 220px;
+    position: absolute;
+    top: 4px;
+    right: 10px;
+}
+
+.card__parrafo{
+    margin-bottom: 15px;
+}
+
+
+.card__img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.card__parrafo--negrita{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 760px) {
+    #productos{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 515px) {
+    #productos{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

@@ -1,0 +1,32 @@
+.formulario{
+    background-color: #6c708b;
+    border-style: solid;
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 110px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    height: 600px; 
+    color: black; 
+}
+
+.formulario-controles{
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.imagen{
+    width: 100px;
+}
+
+.neishi{
+    font-weight: bold;
+    color: black;
+}
+
+.store{
+    color: #f4af2e;
+    font-weight: bold;
+}
